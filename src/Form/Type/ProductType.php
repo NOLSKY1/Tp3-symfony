@@ -29,6 +29,7 @@ class ProductType extends AbstractType
                     'attr' => [
                          'style' => 'max-width: 200px;',
                     ],
+                    'required' => false,
                     'choices' => [
                         'Matte Black'=>'black',
                         'Pearl White'=>'white',
