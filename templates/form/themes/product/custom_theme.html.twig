@@ -1,0 +1,14 @@
+{% block _product_quantity_row %}
+    <div class="mb-3">
+            {{form_label(form ,null , {'label_attr' : {'class' : "form-label"}}) }}
+            {{form_widget(form , {'attr': {'class': 'form-control'}}) }}
+            </div>
+{% endblock _product_quantity_row %}
+
+
+{% block _product_color_row %}
+       <div class="mb-3">
+            {{ form_label(form , null , {'label_attr' : {'class' : "form-label"}}) }}
+            {{ form_widget(form , {'attr': {'class': 'form-select'}} )}}
+            </div>
+{% endblock _product_color_row %}
