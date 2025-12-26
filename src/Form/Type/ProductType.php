@@ -34,7 +34,8 @@ class ProductType extends AbstractType
                         'Matte Black'=>'black',
                         'Pearl White'=>'white',
                         'Silver'=>'silver',
-                    ]
+                    ],
+                    'data' => 'black',
                 ]);
     }
 }
